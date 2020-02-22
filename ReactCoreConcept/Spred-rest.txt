@@ -1,0 +1,21 @@
+Spred Operatop = spred array element
+ex 
+
+array = [1,2,3]
+
+arry1 = [...array,4]
+
+output = [1,2,3,4]
+
+
+reast operator
+
+
+const data = (...parm) =>
+{
+
+	parm.filter(x=>x === 1);
+}
+
+
+data(1,2,3)

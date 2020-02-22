@@ -1,0 +1,4 @@
+The React.lazy function lets you render a dynamic import as a regular component.
+const OtherComponent = React.lazy(() => import('./OtherComponent'));
+
+This will automatically load the bundle containing the OtherComponent when this component is first rendered.

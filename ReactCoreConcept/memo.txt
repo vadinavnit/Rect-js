@@ -1,0 +1,5 @@
+memo use for perfomance 
+
+const MyComponent = React.memo(function MyComponent(props) {
+  /* only rerenders if props change */
+});

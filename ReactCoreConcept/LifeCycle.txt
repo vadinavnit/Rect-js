@@ -1,0 +1,27 @@
+constructor()
+static getDerivedStateFromProps(state, props)
+//componetnWillMount()
+Render()
+componentDidMount()
+//componentWillReceiveProps(nextProps)
+
+The updating lifecycle methods
+
+static getDerivedStateFromProps(state, props)
+shouldComponentUpdate()// returb bool value 
+render()
+//componetnWillUpdate()
+getSnapshotBeforeUpdate()
+componentDidUpdate()
+
+The unmounting lifecycle method
+componentWillUnmount()
+
+
+
+The error handling lifecycle methods
+
+static getDerivedStateFromError()
+componentDidCatch()
+
+

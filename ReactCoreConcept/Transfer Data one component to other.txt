@@ -1,0 +1,6 @@
+props
+state
+ref
+higherOrderComponent
+context
+history.push()

@@ -1,0 +1,31 @@
+class ComponentOne extends React.Component {
+  constructor(props) {
+    super(props);
+    this.functionToPass = this.functionToPass.bind(this);
+  }
+  functionToPass () {
+    // do something
+  }
+  render () {
+    <ComponentTwo sendFunction = {this.functionToPass} />
+    return (
+    //something
+    );
+  }
+}
+
+class ComponentTwo extends React.Component {
+  constructor(props) {
+    super(props);
+    this.functionPassed = this.functionPassed.bind(this);
+  }
+  functionPassed () {
+    // do something
+    this.props.sendFunction();
+  }
+  render () {
+    return (
+      //something
+    );
+  }
+}

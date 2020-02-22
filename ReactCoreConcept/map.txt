@@ -1,0 +1,7 @@
+const arr = []
+const marr = []
+
+marr.map((list,index)=>
+{
+
+})

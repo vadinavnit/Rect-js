@@ -1,0 +1,14 @@
+=>Basically, by using JSX you can write concise HTML/XML-like structures (e.g., DOM like tree structures) in the same file as you write JavaScript code, then Babel will transform these expressions into actual JavaScript code. Unlike the past, instead of putting JavaScript into HTML, JSX allows us to put HTML into JavaScript.
+
+=> It should be obvious but JSX is easier to read and write over large pyramids of JavaScript function calls or object literal
+
+
+
+This can be useful to conditionally render React elements. This JSX renders the <Header /> component only if showHeader is true:
+
+<div>
+  {showHeader && <Header />}
+  <Content />
+</div>
+
+

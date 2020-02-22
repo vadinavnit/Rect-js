@@ -1,0 +1,3 @@
+Whereas a component transforms props into UI, a higher-order component transforms a component into another component.
+
+HOCs are common in third-party React libraries, such as Redux’s connect and Relay’s createFragmentContainer.

@@ -1,0 +1,8 @@
+REDUCERS
+
+Reducers are just pure functions that take the previous state and an action, and return the next state. Remember to return new state objects, instead of mutating the previous state
+
+
+ACTION
+
+Actions are payloads of information that send data from your application to your store. They are the only source of information for the store. You send them to the store using store.dispatch().
